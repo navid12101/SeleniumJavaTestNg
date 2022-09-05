@@ -60,7 +60,8 @@ public class Login {
 		else {
 			System.out.println("OrangeHRM-Logo is Missing");}
 		//Thread.sleep(2000);
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));	WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/h5")));
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));	
+	WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/h5")));
 	}
 //	
 //
@@ -76,11 +77,8 @@ public class Login {
 		if(ExpectedText==text) {
 			System.out.println("Your Expected Heading is = "+text);}
 		else {
-			System.out.println("Your Expected Heading is incorrect");}}
-		//Thread.sleep(2000);
-//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-//		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[1]/label")));
-//	}
+			System.out.println("Your Expected Heading is incorrect");}
+		}
 		
 //	// *******************************************Get UserName_Label(Username)*************************
 	@Test(priority=4)
