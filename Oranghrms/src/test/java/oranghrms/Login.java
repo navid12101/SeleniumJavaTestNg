@@ -175,7 +175,7 @@ public class Login {
 	@AfterTest
 	public void teardown() 
 	{
-		//driver.close();
+		driver.close();
 		driver.quit();
 
 }}
