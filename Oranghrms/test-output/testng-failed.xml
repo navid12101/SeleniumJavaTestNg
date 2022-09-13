@@ -5,9 +5,8 @@
     <classes>
       <class name="oranghrms.Login">
         <methods>
-          <include name="LoginText"/>
+          <include name="Login_Button"/>
           <include name="setup"/>
-          <include name="teardown"/>
         </methods>
       </class> <!-- oranghrms.Login -->
     </classes>

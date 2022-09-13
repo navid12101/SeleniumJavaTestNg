@@ -1,33 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-25T00:17:09 PKT" name="Default suite" finished-at="2022-08-25T00:17:38 PKT" duration-ms="29113">
+  <suite started-at="2022-09-05T08:32:19 PKT" name="Default suite" finished-at="2022-09-05T08:32:36 PKT" duration-ms="16860">
     <groups>
     </groups>
-    <test started-at="2022-08-25T00:17:09 PKT" name="Default test" finished-at="2022-08-25T00:17:38 PKT" duration-ms="29113">
+    <test started-at="2022-09-05T08:32:19 PKT" name="Default test" finished-at="2022-09-05T08:32:36 PKT" duration-ms="16860">
       <class name="oranghrms.Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:oranghrms.Login@6973b51b]" started-at="2022-08-25T00:17:09 PKT" name="setup" finished-at="2022-08-25T00:17:16 PKT" duration-ms="7450" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:oranghrms.Login@6e171cd7]" started-at="2022-09-05T08:32:19 PKT" name="setup" finished-at="2022-09-05T08:32:34 PKT" duration-ms="14883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="matchtitle()[pri:1, instance:oranghrms.Login@6973b51b]" started-at="2022-08-25T00:17:16 PKT" name="matchtitle" finished-at="2022-08-25T00:17:31 PKT" duration-ms="15023" status="PASS">
+        <test-method signature="A_company_bImage()[pri:1, instance:oranghrms.Login@6e171cd7]" started-at="2022-09-05T08:32:34 PKT" name="A_company_bImage" finished-at="2022-09-05T08:32:34 PKT" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- matchtitle -->
-        <test-method signature="imagecapture()[pri:2, instance:oranghrms.Login@6973b51b]" started-at="2022-08-25T00:17:31 PKT" name="imagecapture" finished-at="2022-08-25T00:17:31 PKT" duration-ms="55" status="PASS">
+        </test-method> <!-- A_company_bImage -->
+        <test-method signature="B_OrangHRM_Logo()[pri:2, instance:oranghrms.Login@6e171cd7]" started-at="2022-09-05T08:32:35 PKT" name="B_OrangHRM_Logo" finished-at="2022-09-05T08:32:35 PKT" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- imagecapture -->
-        <test-method signature="LoginText()[pri:3, instance:oranghrms.Login@6973b51b]" started-at="2022-08-25T00:17:31 PKT" name="LoginText" finished-at="2022-08-25T00:17:34 PKT" duration-ms="3044" status="PASS">
+        </test-method> <!-- B_OrangHRM_Logo -->
+        <test-method signature="Page_Heading()[pri:3, instance:oranghrms.Login@6e171cd7]" started-at="2022-09-05T08:32:35 PKT" name="Page_Heading" finished-at="2022-09-05T08:32:35 PKT" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginText -->
-        <test-method signature="userpassword()[pri:4, instance:oranghrms.Login@6973b51b]" started-at="2022-08-25T00:17:34 PKT" name="userpassword" finished-at="2022-08-25T00:17:37 PKT" duration-ms="3253" status="PASS">
+        </test-method> <!-- Page_Heading -->
+        <test-method signature="Username()[pri:4, instance:oranghrms.Login@6e171cd7]" started-at="2022-09-05T08:32:35 PKT" name="Username" finished-at="2022-09-05T08:32:35 PKT" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userpassword -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:oranghrms.Login@6973b51b]" started-at="2022-08-25T00:17:37 PKT" name="teardown" finished-at="2022-08-25T00:17:38 PKT" duration-ms="226" status="PASS">
+        </test-method> <!-- Username -->
+        <test-method signature="Password()[pri:5, instance:oranghrms.Login@6e171cd7]" started-at="2022-09-05T08:32:35 PKT" name="Password" finished-at="2022-09-05T08:32:35 PKT" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password -->
+        <test-method signature="Login_Button()[pri:6, instance:oranghrms.Login@6e171cd7]" started-at="2022-09-05T08:32:35 PKT" name="Login_Button" finished-at="2022-09-05T08:32:35 PKT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Button -->
+        <test-method signature="Linkedin()[pri:7, instance:oranghrms.Login@6e171cd7]" started-at="2022-09-05T08:32:35 PKT" name="Linkedin" finished-at="2022-09-05T08:32:35 PKT" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Linkedin -->
+        <test-method signature="Facebook()[pri:8, instance:oranghrms.Login@6e171cd7]" started-at="2022-09-05T08:32:35 PKT" name="Facebook" finished-at="2022-09-05T08:32:35 PKT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Facebook -->
+        <test-method signature="Twitter()[pri:9, instance:oranghrms.Login@6e171cd7]" started-at="2022-09-05T08:32:35 PKT" name="Twitter" finished-at="2022-09-05T08:32:35 PKT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Twitter -->
+        <test-method signature="Youtube()[pri:10, instance:oranghrms.Login@6e171cd7]" started-at="2022-09-05T08:32:35 PKT" name="Youtube" finished-at="2022-09-05T08:32:35 PKT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Youtube -->
+        <test-method signature="login()[pri:11, instance:oranghrms.Login@6e171cd7]" started-at="2022-09-05T08:32:35 PKT" name="login" finished-at="2022-09-05T08:32:36 PKT" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:oranghrms.Login@6e171cd7]" started-at="2022-09-05T08:32:36 PKT" name="teardown" finished-at="2022-09-05T08:32:36 PKT" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
